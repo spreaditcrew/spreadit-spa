@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes something is happening 1`] = `
+<div
+  className="block"
+>
+  Yes, it works! 
+  3
+</div>
+`;

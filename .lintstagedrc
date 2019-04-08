@@ -1,0 +1,6 @@
+{
+  "linters": {
+    "*.scss": ["./node_modules/.bin/stylelint --syntax scss"],
+    "*.{ts,tsx}": ["./node_modules/.bin/eslint --ext .js,.ts,.tsx"]
+  }
+}
