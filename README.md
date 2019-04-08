@@ -47,3 +47,9 @@ $ npm run stylelint
 // automatically fix some types of violations
 $ npm run stylelint-fix
 ```
+
+## License
+
+This project is licensed with 
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
+The content of the license is also a [part of this repository](LICENSE.md).
