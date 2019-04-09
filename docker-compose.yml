@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  spa:
+    image: spreadit-spa:latest        
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    env_file:
+      - .env
+    ports: 
+      - "8080:8080"
+    volumes:
+      - ./:/code
