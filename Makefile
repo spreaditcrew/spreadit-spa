@@ -3,4 +3,4 @@ up:
 build-image:
 	docker-compose build
 build-app:
-	docker-compose exec spa install
+	docker-compose run --rm spa install
